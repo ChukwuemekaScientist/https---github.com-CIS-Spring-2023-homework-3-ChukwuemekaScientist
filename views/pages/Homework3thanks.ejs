@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head'); %>
+
+</head>
+<body class="container">
+
+    <main>
+        <div>
+            <form action="/process_form" method="post">
+                <h2>Welcome to UserData Mock 2000!</h2>
+                <input class="btn btn-lg btn-primary " type="submit" value="LOAD">
+            </form> 
+        </div>
+
+        <br>
+
+        <div>
+                    <p>
+                        <strong>Name: <%= name1 %></strong>
+                        <br>
+                        <strong>City: <%= city1 %></strong>
+                        <br>
+                        <strong>Company: <%= companyname1 %></strong>
+                    </p>
+
+                    <p>
+                        <strong>Name: <%= name2 %></strong>
+                        <br>
+                        <strong>City: <%= city2 %></strong>
+                        <br>
+                        <strong>Company: <%= companyname2 %></strong>
+                    </p>
+
+                    <p>
+                        <strong>Name: <%= name3 %></strong>
+                        <br>
+                        <strong>City: <%= city3 %></strong>
+                        <br>
+                        <strong>Company: <%= companyname3 %></strong>
+                    </p>
+        </div>
+
+    </main>
+
+    <footer>
+        <%- include('../partials/footer'); %>
+    </footer>
+
+</body>
+</html>
